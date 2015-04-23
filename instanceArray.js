@@ -29,6 +29,11 @@ console.log('Tyler\'s information is ' + JSON.stringify(users[0]));
 
 console.log('Lenny\'s information is ' + JSON.stringify(users[1]); 
 
+//OR
+
+console.log('Lenny\'s information is ', users[1]); 
+
+
 //Now console.log all of Lennys information
 //code here
 
