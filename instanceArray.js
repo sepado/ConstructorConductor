@@ -23,13 +23,11 @@ var user2 = new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags');
 var user3 = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
 users.push(user1, user2, user3);
 
-console.log('Tyler\'s information is ') + console.log(users[0]);
-
+console.log('Tyler\'s information is ' + JSON.stringify(users[0]));
 //Console.log all of Tylers information
 //code here
 
-console.log('Lenny\'s information is ' + users[1]); //just returns object,object
-console.log(users[1]); // displays all items in the object
+console.log('Lenny\'s information is ' + JSON.stringify(users[1]); 
 
 //Now console.log all of Lennys information
 //code here

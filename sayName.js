@@ -23,4 +23,14 @@ Person.prototype.sayName = function() {
 
 user1.sayName();
 
-
+/*
+//SEAN NOTE: this links the Person prototype (LINE 18) 
+// to a new prototype constructor 
+Student.prototype = Object.create(person.prototype); 
+// SEAN NOTE: this is ONLY for student notes? 
+Student.prototypes.gradesImprove = function() (
+	this.goodgrades = grades; );
+//SEAN NOTE: 
+Person.call(this, material, surfaceArea));
+this.woodtype = woodtype;
+*/

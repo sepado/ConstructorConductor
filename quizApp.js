@@ -10,7 +10,7 @@
 
 function User(name, email, password, totalScore) {
 	this.name = name;
-	this.emai = email;
+	this.email = email;
 	this.password = password;
 	this.totalScore = totalScore;
 };
@@ -20,6 +20,7 @@ function User(name, email, password, totalScore) {
 //code here
 
 function Question(title, answersArray, rightAnswer, difficulty) {
+//	User.call(this, name, email, password, totalScore);
 	this.title = title;
 	this.answersArray = answersArray;
 	this.rightAnswer = rightAnswer;
